@@ -1,0 +1,51 @@
+body{
+    margin-left:10%;
+    margin-right:10%;
+    background-image:url("./image/bg.jpg");
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    border: 10px solid white;
+    background-color: white;
+}
+.card-header{
+    border:5px solid #A8F0F0;
+    text-align: right;
+    background-color:#A8F0F0;
+}
+.card-header h2{
+    font-size:14pt;
+}
+.card-body{
+    border: 5px solid #C2E9E9;
+    background-color:#E8FBFB;
+    margin-top:10px;
+    padding:5px;
+    overflow: hidden; 
+}
+.card-body p img{
+    float:right; 
+}
+.card-body h2 span{
+    border-bottom:2px dashed #A8F0F0;
+}
+.card-basic h2 span{
+    border-bottom:2px dashed #A8F0F0;
+
+}
+.card-footer{
+    border: 5px solid #C2E9E9;
+    background-color:#E8FBFB;
+    margin-top:10px;
+    padding:5px;
+}
+.card-footer p img{
+    float:right;
+}
+.clear{
+    float:left;
+}
+.clear1{
+    clear:both;
+}
